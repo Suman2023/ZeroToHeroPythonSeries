@@ -1,0 +1,68 @@
+      FOR WINDOWS ONLY
+----------------------------
+
+INSTALLING PYTHON
+-------------------
+website: https://www.python.org/downloads/
+
+Verify:
+	Go to your termianl and type `python --version` if you get the version its all fine.. else see the NOTE if that fixes
+
+
+
+Note: 
+1. Click on the Add to path when you install python it makes python aviable for the user
+2. For making it sytem wide:
+	i. GO to edit env variables
+	ii. Syate, varibale -> Path -> Edit
+	iii. Check if this path exist
+		C:\Users\<your username>\AppData\Local\Programs\Python\Python311\Scripts
+		C:\Users\<your username>\AppData\Local\Programs\Python\Python311\
+		
+		-> if no then add them
+		-> else update with the ython version you just installed
+
+
+
+
+
+
+INSTALLING GIT
+-------------------------------
+website: https://git-scm.com/download/win
+Verify:
+	Go to your termianl and type `git --version` you should get the version you installed
+
+
+HOW TO PUSH TO GITHUB
+Web:
+
+1. Create a github account if not exist
+2. Create a new repository
+
+Local:
+1. `cd` to the working folder
+2. git init -> this initialises a new empty repository
+3. git add <name of files > or `.` for all files
+4. git commit -m <commit message>
+5. `git remote add < the https or ssh link that you got when creating the repo in web`
+6. `git branch -M main` -> this makes main the dafeult branch
+7. `git push origin main` -> thisd pushes the local instance to the main branch of the remote
+
+
+Web:
+1. Refresh the page -> you should see you changes reflecting there
+
+if you want to clone the same in different device:
+i. Copy the link of the repo
+ii. on your terminal type `git clone <the link of git rep you copied` -> this should copy the repo in your local
+
+
+
+That a brief intoduction there is a lot mmore in git we will learn as we progress in the series
+
+
+
+INSTALLING lite-xl (text editor I will be using)
+-----------------------------------------------
+link to download: https://github.com/lite-xl/lite-xl/releases/tag/v2.1.1

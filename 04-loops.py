@@ -17,12 +17,12 @@ for letter in string:
 
 
 # 2. While Loop
-# number = 5
-# while number <= 10:
-# 	print(number)
-# 	number+=1
-# else:
-# 	print(f"The conditon became false at: {number}")
+number = 5
+while number <= 10:
+	print(number)
+	number+=1
+else:
+	print(f"The conditon became false at: {number}")
 
 
 

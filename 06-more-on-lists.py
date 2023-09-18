@@ -95,18 +95,18 @@ print(id(arr3))
 
 # # 8. enumerate
 
-# #         # 0  1  2  3   4
-# arr = [ 1, 6, 8, 10, 12]
+#         # 0  1  2  3   4
+arr = [ 1, 6, 8, 10, 12]
 
-# for num in arr:
-# 	print(num)
+for num in arr:
+	print(num)
 
-# for tuple in enumerate(arr):
-# 	print(tuple)
+for tuple in enumerate(arr):
+	print(tuple)
 
 
-# for index, num in enumerate(arr):
-# 	print(index, '->', num)
+for index, num in enumerate(arr):
+	print(index, '->', num)
 
 
 # # 9. extend

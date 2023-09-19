@@ -4,7 +4,7 @@ string = "Hello World"
 
 
 for letter in string:
-	if letter == "H":
+	if letter == "H"
 		continue # skip
 		# TODO
 	# TODO

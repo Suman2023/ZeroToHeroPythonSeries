@@ -129,7 +129,6 @@ print(d7)
 
 
 
-
 # 9. Tip to convert two list to key value pair dict
 
 list1 = ["A", "B", "C"]

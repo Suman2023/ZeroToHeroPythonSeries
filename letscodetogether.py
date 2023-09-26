@@ -3,25 +3,28 @@ from time import sleep
 
 wn = turtle.Screen()
 
-wn.setup(width=1920, height=1080)  # Adjust the width and height as needed
+# Set size of the Window
+wn.setup(width=1920, height=1080)
 
+# Set Background Color
 wn.bgcolor("black")
+
 # Create a turtle
 t = turtle.Turtle()
 
-# # Set the starting position to the top-left corner
 
+# Function to set the pen position (for changing line and more)
 def start_pos(margin_x=0,margin_y=0):
 	t.penup()  # Lift the pen (no drawing)
 	t.goto(-wn.window_width() / 2 + 380 + margin_x, wn.window_height() / 2 - 200 - margin_y)  # Set to the top-left corner
-	t.pendown()  # 
+	t.pendown()  # Back to drawing state
 	
 start_pos(margin_x = 280)
-t.pensize(30)
-t.pencolor("#FF9933")
-t.shape("turtle")
+t.pensize(30) # Change pen width
+t.pencolor("#FF9933") # Set pen color
+t.shape("turtle")  # setting teh pen as turtle. can be left blank
 
-t.speed("fast")
+# t.speed("fast") # can set speed to fast, slow normal
 
 def letter_space():
 	t.penup()

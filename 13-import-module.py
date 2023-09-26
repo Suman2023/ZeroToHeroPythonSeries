@@ -93,7 +93,7 @@
 
 # wb.open("https://python.org")
 
-
+# look at eg: letscodetogether.py
 # import turtle
 
 
@@ -123,8 +123,9 @@
 # turtle.done()
 
 
-https://tkdocs.com/tutorial/index.html
+# https://tkdocs.com/tutorial/index.html
 # tkinter (for creating GUI)
+# look at eg: subscribe.py
 
 
 

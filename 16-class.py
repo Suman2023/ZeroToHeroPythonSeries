@@ -90,5 +90,3 @@ pot.set_color("Reddish")
 
 
 print(pot)
-
-

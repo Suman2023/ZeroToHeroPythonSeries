@@ -93,5 +93,5 @@ print(circle1.list2)
 print(circle2.list2)
 
 
-# Use Mutable Type only for class variable if you dont want it to be updated for all instance.
+# Use Immutable Type only for class variable if you dont want it to be updated for all instance.
 # try using mutable type as instance variable
